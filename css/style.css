@@ -82,6 +82,11 @@ button:hover {
   font-size: 62px;
   font-weight: 400;
   color: #ffff;
+  position: absolute;
+  top: 50%;
+  widows: 100%;
+  text-align: center;
+  background-color: transparent;
 }
 
 background-image {
