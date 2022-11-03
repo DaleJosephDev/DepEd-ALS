@@ -92,6 +92,7 @@ button:hover {
   widows: 100%;
   text-align: center;
   background-color: transparent;
+  resize: both;
 }
 
 .about-me {
@@ -113,4 +114,10 @@ button:hover {
   font-weight: 400;
   font-size: 22px;
   color: #ffff;
+}
+
+.bg-image {
+  max-width: 100%;
+  object-fit: cover;
+  resize: both;
 }
