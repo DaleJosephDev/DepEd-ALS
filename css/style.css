@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
+/* Navigation Bar */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -66,6 +68,7 @@ color: #ffff;
   color: #0077B6;
 }
 
+/* Contact me Button */
 button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -83,6 +86,7 @@ button:hover {
   color: #ffff;
 }
 
+/* welcoming text */
 .intro {
   font-family: 'Caveat Brush', cursive;
   font-size: 62px;
@@ -96,12 +100,14 @@ button:hover {
   resize: both;
 }
 
+/* About me section */
 .about-me {
   font-family: 'Caveat Brush', cursive;
   font-size: 22px;
   font-weight: 400;
   color: #ffff;
   text-align: left;
+  resize: both;
 }
 
 .about-my-background {
@@ -119,15 +125,16 @@ button:hover {
   color: #ffff;
 }
 
+.about-image {
+  float: left;
+  max-width: 100%;
+  resize: both;
+}
+
+/* Background image for the first section of the homepage */
 .bg-image {
   max-width: 100%;
   object-fit: cover;
   resize: both;
   filter: brightness(60%);
-}
-
-.about-image {
-  float: left;
-  max-width: 100%;
-  resize: both;
 }
