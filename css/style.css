@@ -91,7 +91,7 @@ button:hover {
   position: absolute;
   top: 20%;
   widows: 100%;
-  text-align: center;
+  text-align: left;
   background-color: transparent;
   resize: both;
 }
