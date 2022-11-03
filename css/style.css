@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -40,12 +39,15 @@ header{
   font-family: 'Caveat Brush', cursive;
   font-size: 22px;
   font-weight: 400;
+  background-color: transparent;
 }
 
 .logolink:hover {
 color: #ffff;
 }
-
+.navlinks {
+  background-color: transparent;
+}
 .navlinks {
   list-style: none;
 }
@@ -92,7 +94,23 @@ button:hover {
   background-color: transparent;
 }
 
-background-image {
-  filter: brightness(30%);
+.about-me {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffff;
 }
 
+.about-my-background {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.my-background {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffff;
+}
