@@ -5,10 +5,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #252525;
+  background-color: rgba(0, 0, 0, 0.6);
   font-family: 'Caveat Brush', cursive;
   font-size: 22px;
   font-weight: 400;
+  resize: both;
 }
 
 li, a{
@@ -27,7 +28,7 @@ header{
   color: #ffff;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 10;
 }
 
 .logo {
@@ -46,7 +47,7 @@ header{
 color: #ffff;
 }
 .navlinks {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .navlinks {
   list-style: none;
@@ -88,7 +89,7 @@ button:hover {
   font-weight: 400;
   color: #ffff;
   position: absolute;
-  top: 50%;
+  top: 20%;
   widows: 100%;
   text-align: center;
   background-color: transparent;
@@ -100,6 +101,7 @@ button:hover {
   font-size: 22px;
   font-weight: 400;
   color: #ffff;
+  text-align: left;
 }
 
 .about-my-background {
@@ -107,6 +109,7 @@ button:hover {
   font-weight: 400;
   font-size: 16px;
   color: #ffff;
+  text-align: left;
 }
 
 .my-background {
@@ -119,5 +122,11 @@ button:hover {
 .bg-image {
   max-width: 100%;
   object-fit: cover;
+  resize: both;
+}
+
+.about-image {
+  float: left;
+  max-width: 100%;
   resize: both;
 }
