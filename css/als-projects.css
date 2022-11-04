@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* Navigation Bar */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: 'Caveat Brush', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  resize: both;
+}
+
+li, a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 10%;
+  color: #ffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.logolink {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.logolink:hover {
+color: #ffff;
+}
+.navlinks {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.navlinks {
+  list-style: none;
+}
+
+.navlinks, li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navlinks, li, a {
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks, li, a:hover {
+  color: #0077B6;
+}
+
+/* Contact me Button */
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0077B6;
+  padding: 5px 15px;
+  border-color: #0077B6;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #0077B6;
+  color: #ffff;
+}
+
+.image {
+  width: 1450px;
+  height: 200px;
+  resize: both;
+}
+
+.title {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 62px;
+  font-weight: 400;
+  color: #ffff;
+  position: absolute;
+  top: 14%;
+  widows: 100%;
+ text-align: center;
+ resize: both;
+ background-color: transparent;
+}
