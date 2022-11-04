@@ -86,13 +86,13 @@ button:hover {
   color: #ffff;
 }
 
-.image {
+.page-image {
   width: 1450px;
   height: 200px;
   resize: both;
 }
 
-.title {
+.page-title {
   font-family: 'Caveat Brush', cursive;
   font-size: 62px;
   font-weight: 400;
