@@ -3,51 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-  <title>DepEd ALS Portfolio</title>
-  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/2e4db540d5.js" crossorigin="anonymous"></script>
+  <script src="/js/nav.js"></script>
+  <title>Home</title>
+  
 </head>
 <body>
   
-<!--Navigation bar-->
+  <!--Navigation bar-->
   <header>
     <div class="logo" alt="logo"><a href="index.html" class="logolink">DepEd ALS Portfolio</a></div>
-  <nav>
-    <ul class="navlinks">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="als-projects.html">ALS Projects</a></li>
-      <li><a href="als-activities.html">ALS Activities</a></li>
-      <li><a href="als-modules.html">ALS Modules</a></li>
+
+    <button class="mobile-nav-toggle" aria-controls="nav-links" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+    </button>
+
+  <nav class="navigation-bar">
+    <ul id="nav-links" data-visible="false" class="navlinks">
+      <li><a href="index.html"><span aria-hidden="true"></span>Home</a></li>
+      <li><a href="als-projects.html"><span aria-hidden="true"></span>ALS Projects</a></li>
+      <li><a href="als-activities.html"><span aria-hidden="true"></span>ALS Activities</a></li>
+      <li><a href="als-modules.html"><span aria-hidden="true"></span>ALS Modules</a></li>
+      <a class="cta" href="#"><button>Contact Me</button></a>
     </ul>
   </nav>
-  <a class="cta" href="contact.html"><button>Contact Me</button></a>
+  
+
 </header>
 
-<!--Background Image for Homepage-->
-<img src="img/library1920x1080.jpg" alt="" class="bg-image">
+<div class="page-title">Home</div>
 
-<div class="intro">Welcome to my DepEd ALS Portfolio <br> Website</div>
 
-<!--about me section and adding the about page section also-->
-<h5 class="about-me">About Me</h5>
 
-<hr>
-<table>
-  <tr>
-    <th>
-     
-<br><img src="img/cr=w_1200,h_600.jpeg" alt="" width="767" height="387" class="about-image">
-
-    <h5 class="my-background">My Background</h5> <br>
-
-      <p class="about-my-background"> I began studying HTML and CSS in February 2022 and even subscribed to a skillshare online course to learn web development,
-      which I completed in March 2022. I started working on new projects to improve my web development abilities, but I never finished any projects owing to my lack of math skills. 
-      After enrolling in DepEd ALS, I began developing my first ever newly published website. I start working on the new design for the website every day. 
-      The website is all about the projects, activities, and modules I've worked on for my website.</p>
-    </th>
-  </tr>
-</table>
+<img src="img/bg-image.jpg" alt="" class="page-image">
 
 </body>
 </html>
