@@ -161,4 +161,55 @@ button:hover {
   background-color: transparent;
 }
 
- 
+ /* welcoming text */
+.intro {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 62px;
+  font-weight: 400;
+  color: #ffff;
+  position: absolute;
+  top: 20%;
+  widows: 100%;
+  text-align: left;
+  background-color: transparent;
+  resize: both;
+}
+
+/* About me section */
+.about-me {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffff;
+  text-align: left;
+  resize: both;
+}
+
+.about-my-background {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffff;
+  text-align: left;
+}
+
+.my-background {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffff;
+}
+
+.about-image {
+  float: left;
+  max-width: 100%;
+  resize: both;
+}
+
+/* Background image for the first section of the homepage */
+.bg-image {
+  max-width: 100%;
+  object-fit: cover;
+  resize: both;
+  filter: brightness(60%);
+}
