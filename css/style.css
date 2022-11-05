@@ -28,10 +28,10 @@ header {
   align-items: center;
   padding: 20px 10%;
   color: #ffff;
-  position: sticky;
   top: 0;
   z-index: 10;
   background: #424b54;
+  position: sticky;
 }
 
 .mobile-nav-toggle {
@@ -164,15 +164,14 @@ button:hover {
  /* welcoming text */
 .intro {
   font-family: 'Caveat Brush', cursive;
-  font-size: 55px;
+  font-size: 62px;
   font-weight: 400;
   color: #ffff;
   position: absolute;
-  top: 20%;
+  top: 10%;
   widows: 100%;
   text-align: left;
   background-color: transparent;
-  resize: both;
 }
 
 /* About me section */
@@ -182,7 +181,6 @@ button:hover {
   font-weight: 400;
   color: #ffff;
   text-align: left;
-  resize: both;
 }
 
 .about-my-background {
@@ -210,6 +208,5 @@ button:hover {
 .bg-image {
   max-width: 100%;
   object-fit: cover;
-  resize: both;
   filter: brightness(60%);
 }
