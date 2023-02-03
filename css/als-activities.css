@@ -193,8 +193,8 @@ nav a:hover {
   }
 
 .image {
-  width: 1450px;
-  height: 200px;
+  width: 2000px;
+  height: 300px;
   resize: both;
 }
 
@@ -204,7 +204,7 @@ nav a:hover {
   font-weight: 400;
   color: #ffff;
   position: absolute;
-  top: 14%;
+  top: 10%;
   widows: 100%;
  text-align: center;
  resize: both;
