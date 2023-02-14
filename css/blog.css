@@ -205,4 +205,9 @@ nav a:hover {
  resize: both;
  background-color: transparent;
 }
+
+.blog-post {
+  width: 1000px;
+  height: 500px;
+}
 }
