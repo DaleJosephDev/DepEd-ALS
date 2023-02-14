@@ -210,4 +210,15 @@ nav a:hover {
   width: 400px;
   height: 200px;
 }
+
+.blog-title {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffff;
+}
+
+.blog-title:hover {
+  color: rgb(130, 237, 237);
+  font-size: 20px;
+}
 }
